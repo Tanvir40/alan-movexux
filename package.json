@@ -1,0 +1,50 @@
+{
+  "name": "movexos.com",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "batch": "tsx scripts/batchGenerateMovings.ts",
+    "gsc:fetch": "tsx scripts/fetchGSCKeywords.ts",
+    "ping:google": "tsx scripts/pingGoogle.ts",
+    "seo:automate": "npm run gsc:fetch && npm run batch"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@sanity/client": "^7.12.0",
+    "csv-parser": "^3.2.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.6.1",
+    "flatpickr": "^4.6.13",
+    "fs": "^0.0.1-security",
+    "googleapis": "^161.0.0",
+    "next": "15.5.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.3.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-flatpickr": "^4.0.11",
+    "sanity": "^4.10.3",
+    "swr": "^2.3.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20",
+    "@types/node-fetch": "^2.6.13",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "csv-parse": "^6.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}
