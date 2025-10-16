@@ -10,6 +10,7 @@ import { useRef } from "react";
 import Footer from "@/components/Footer";
 import React from 'react';
 import LatestBlog from "@/components/LatestBlog";
+export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const carouselRef = useRef<{ prevSlide: () => void; nextSlide: () => void }>(null);
