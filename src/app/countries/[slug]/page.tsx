@@ -1,5 +1,6 @@
 // src/app/countries/[slug]/page.tsx
 import React from "react";
+export const dynamic = 'force-dynamic';
 
 interface Props {
   params: Promise<{ slug: string }>;

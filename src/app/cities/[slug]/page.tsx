@@ -1,6 +1,7 @@
 // src/app/cities/[slug]/page.tsx
 import { notFound } from "next/navigation";
 import React from "react";
+export const dynamic = 'force-dynamic';
 
 // Remove the unused interface or update it to match the async signature
 // interface CityPageProps {

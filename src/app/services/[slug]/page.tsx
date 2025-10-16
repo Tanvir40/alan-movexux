@@ -7,6 +7,7 @@ import Form from "@/components/Form";
 import StateSection from "@/components/StateSection";
 import ClientFeedback from "@/components/ClientFeedback";
 import FAQ from "@/components/FAQ";
+export const dynamic = 'force-dynamic';
 
 interface Highlight {
   title: string;

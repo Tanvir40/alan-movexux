@@ -13,6 +13,7 @@ import Button from "@/components/Button";
 import Form from "@/components/Form";
 import Footer from "@/components/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
+export const dynamic = 'force-dynamic';
 
 // ---------------------------
 // Page Props
